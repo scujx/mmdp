@@ -1,0 +1,30 @@
+# Local editor and operating-system files.
+.DS_Store
+.idea/
+.vscode/
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# Generated experiment outputs and model archives.
+outputs/
+results/
+runs/
+logs/
+*.zip
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+
+# Local credentials must never be committed.
+.env
+.env.*
