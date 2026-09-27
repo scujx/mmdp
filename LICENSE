@@ -1,0 +1,17 @@
+Research Code License
+
+This research code package accompanies "When to Commit and When to Defer:
+Maturing Markov Decision Processes under Refining Information and Expiring
+Opportunities" and is provided for non-commercial research, review, and
+academic reproducibility.
+
+Permission is granted to reviewers and researchers to inspect, run, and modify
+the code for non-commercial research and review purposes, provided that this
+permission notice is retained.
+
+This package does not include production systems, production data, internal
+route tables, account semantics, operational calibration traces, or deployment
+infrastructure. No permission is granted to use this code, or any derivative of
+it, for commercial deployment or operational decision making.
+
+The code is provided "as is", without warranty of any kind, express or implied.

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "repetitions": 3,
+  "scheduler_seed": 2026092308,
+  "blocks": [
+    {"id": "cash10-milp-flat", "benchmark": "cash10", "controller": "milp", "interface": "flat"},
+    {"id": "cash10-milp-mmdp", "benchmark": "cash10", "controller": "milp", "interface": "mmdp"}
+  ]
+}

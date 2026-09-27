@@ -1,0 +1,138 @@
+{
+  "account_gap_penalty": [
+    4.0,
+    2.0,
+    10.0,
+    8.0,
+    8.0
+  ],
+  "account_yield_rate": [
+    0.003,
+    0.01,
+    0.001,
+    0.001,
+    0.001
+  ],
+  "gap_weight": 1.0,
+  "init_balance_high": [
+    180.0,
+    40.0,
+    45.0,
+    40.0,
+    35.0
+  ],
+  "init_balance_low": [
+    140.0,
+    20.0,
+    25.0,
+    20.0,
+    20.0
+  ],
+  "investment_idx": 1,
+  "investment_shaping_weight": 0.0,
+  "master_idx": 0,
+  "num_accounts": 5,
+  "operational_indices": [
+    2,
+    3,
+    4
+  ],
+  "seed": 42,
+  "stage1_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "stage1_max_steps": 10,
+  "stage2_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "stage2_max_steps": 10,
+  "step_penalty": 20.0,
+  "transfer_fee_rate": 0.001,
+  "yield_weight": 1.0
+}

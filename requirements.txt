@@ -1,0 +1,2 @@
+# Analysis of newly generated evaluations; training dependencies are benchmark-specific.
+numpy==2.2.4

@@ -1,0 +1,1215 @@
+{
+  "candidate_pools": {
+    "C": {
+      "sha256": "227d81ba4bafe33249ad1b8133e06d084e327a830478a2053276f6b5c76c62c2",
+      "size": 164
+    },
+    "U": {
+      "excluded_selected_C_masks": [
+        [
+          0,
+          2,
+          4,
+          5,
+          6,
+          13
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          4,
+          6,
+          11,
+          13
+        ],
+        [
+          2,
+          4,
+          6,
+          8,
+          12,
+          13
+        ],
+        [
+          0,
+          2,
+          4,
+          6,
+          9,
+          11
+        ]
+      ],
+      "excluded_true": true,
+      "sha256": "87648db9dfb364b8621cb1aaa12fff8411f4fa9388ecb2a318abdc3416c90c9b",
+      "size": 2997
+    }
+  },
+  "catalogue_routes": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "design_sha256_before_generation": "ba5dd6ff9cdfe9d83ac73565752ef2ddb08966668619d745da907ac617d8bae7",
+  "environment_instances_constructed": 0,
+  "generation_order": "C1..C5 then U1..U5; independent PCG64 streams, reject prior-within-group duplicates only",
+  "numpy_version": "2.0.1",
+  "persistent_routes": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ]
+  ],
+  "returns_read": 0,
+  "rng": "PCG64",
+  "roles": {
+    "investment_idx": 1,
+    "master_idx": 0,
+    "operational_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  "schema_version": 1,
+  "settings": [
+    {
+      "design_rng_seed": null,
+      "diagnostics": {
+        "direct_funding_count": 3,
+        "direct_funding_covered": [
+          2,
+          3,
+          4
+        ],
+        "expiring_count": 6,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 8,
+        "strongly_connected": true,
+        "true_overlap": 6,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [],
+      "mask_type": "flat",
+      "setting_id": "Flat",
+      "stage0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "stage0_routes": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": null,
+      "diagnostics": {
+        "direct_funding_count": 3,
+        "direct_funding_covered": [
+          2,
+          3,
+          4
+        ],
+        "expiring_count": 6,
+        "isolated_nodes": [
+          1
+        ],
+        "nodes_covered": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 0,
+        "strongly_connected": false,
+        "true_overlap": 6,
+        "weak_components": [
+          [
+            0,
+            2,
+            3,
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "weakly_connected": false
+      },
+      "draw_history": [],
+      "mask_type": "true",
+      "setting_id": "True",
+      "stage0_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stage0_routes": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982101,
+      "diagnostics": {
+        "direct_funding_count": 2,
+        "direct_funding_covered": [
+          2,
+          4
+        ],
+        "expiring_count": 3,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 3,
+        "strongly_connected": false,
+        "true_overlap": 3,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 1497,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            1,
+            2,
+            5,
+            6,
+            8,
+            12
+          ]
+        }
+      ],
+      "mask_type": "uniform",
+      "setting_id": "U1",
+      "stage0_indices": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        12
+      ],
+      "stage0_routes": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982102,
+      "diagnostics": {
+        "direct_funding_count": 1,
+        "direct_funding_covered": [
+          4
+        ],
+        "expiring_count": 2,
+        "isolated_nodes": [
+          1
+        ],
+        "nodes_covered": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 4,
+        "strongly_connected": false,
+        "true_overlap": 2,
+        "weak_components": [
+          [
+            0,
+            2,
+            3,
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "weakly_connected": false
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 2981,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            6,
+            7,
+            9,
+            10,
+            12,
+            13
+          ]
+        }
+      ],
+      "mask_type": "uniform",
+      "setting_id": "U2",
+      "stage0_indices": [
+        6,
+        7,
+        9,
+        10,
+        12,
+        13
+      ],
+      "stage0_routes": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982103,
+      "diagnostics": {
+        "direct_funding_count": 1,
+        "direct_funding_covered": [
+          3
+        ],
+        "expiring_count": 3,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 3,
+        "strongly_connected": false,
+        "true_overlap": 3,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 1668,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            1,
+            3,
+            4,
+            7,
+            9,
+            10
+          ]
+        }
+      ],
+      "mask_type": "uniform",
+      "setting_id": "U3",
+      "stage0_indices": [
+        1,
+        3,
+        4,
+        7,
+        9,
+        10
+      ],
+      "stage0_routes": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982104,
+      "diagnostics": {
+        "direct_funding_count": 1,
+        "direct_funding_covered": [
+          3
+        ],
+        "expiring_count": 2,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 4,
+        "strongly_connected": false,
+        "true_overlap": 2,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 1694,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            1,
+            3,
+            4,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "mask_type": "uniform",
+      "setting_id": "U4",
+      "stage0_indices": [
+        1,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "stage0_routes": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982105,
+      "diagnostics": {
+        "direct_funding_count": 0,
+        "direct_funding_covered": [],
+        "expiring_count": 2,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 4,
+        "strongly_connected": false,
+        "true_overlap": 2,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 956,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            0,
+            3,
+            5,
+            9,
+            11,
+            13
+          ]
+        }
+      ],
+      "mask_type": "uniform",
+      "setting_id": "U5",
+      "stage0_indices": [
+        0,
+        3,
+        5,
+        9,
+        11,
+        13
+      ],
+      "stage0_routes": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982201,
+      "diagnostics": {
+        "direct_funding_count": 3,
+        "direct_funding_covered": [
+          2,
+          3,
+          4
+        ],
+        "expiring_count": 4,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 2,
+        "strongly_connected": false,
+        "true_overlap": 4,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 23,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            13
+          ]
+        }
+      ],
+      "mask_type": "conditional",
+      "setting_id": "C1",
+      "stage0_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        13
+      ],
+      "stage0_routes": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982202,
+      "diagnostics": {
+        "direct_funding_count": 3,
+        "direct_funding_covered": [
+          2,
+          3,
+          4
+        ],
+        "expiring_count": 5,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 1,
+        "strongly_connected": false,
+        "true_overlap": 5,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 10,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        }
+      ],
+      "mask_type": "conditional",
+      "setting_id": "C2",
+      "stage0_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "stage0_routes": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982203,
+      "diagnostics": {
+        "direct_funding_count": 3,
+        "direct_funding_covered": [
+          2,
+          3,
+          4
+        ],
+        "expiring_count": 4,
+        "isolated_nodes": [
+          1
+        ],
+        "nodes_covered": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 2,
+        "strongly_connected": false,
+        "true_overlap": 4,
+        "weak_components": [
+          [
+            0,
+            2,
+            3,
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "weakly_connected": false
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 106,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            2,
+            3,
+            4,
+            6,
+            11,
+            13
+          ]
+        }
+      ],
+      "mask_type": "conditional",
+      "setting_id": "C3",
+      "stage0_indices": [
+        2,
+        3,
+        4,
+        6,
+        11,
+        13
+      ],
+      "stage0_routes": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982204,
+      "diagnostics": {
+        "direct_funding_count": 3,
+        "direct_funding_covered": [
+          2,
+          3,
+          4
+        ],
+        "expiring_count": 3,
+        "isolated_nodes": [
+          1
+        ],
+        "nodes_covered": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 3,
+        "strongly_connected": false,
+        "true_overlap": 3,
+        "weak_components": [
+          [
+            0,
+            2,
+            3,
+            4
+          ],
+          [
+            1
+          ]
+        ],
+        "weakly_connected": false
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 153,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            2,
+            4,
+            6,
+            8,
+            12,
+            13
+          ]
+        }
+      ],
+      "mask_type": "conditional",
+      "setting_id": "C4",
+      "stage0_indices": [
+        2,
+        4,
+        6,
+        8,
+        12,
+        13
+      ],
+      "stage0_routes": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "design_rng_seed": 982205,
+      "diagnostics": {
+        "direct_funding_count": 3,
+        "direct_funding_covered": [
+          2,
+          3,
+          4
+        ],
+        "expiring_count": 3,
+        "isolated_nodes": [],
+        "nodes_covered": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "persistent_count": 3,
+        "strongly_connected": false,
+        "true_overlap": 3,
+        "weak_components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "weakly_connected": true
+      },
+      "draw_history": [
+        {
+          "accepted": true,
+          "candidate_index": 36,
+          "reason": "first unused candidate",
+          "stage0_indices": [
+            0,
+            2,
+            4,
+            6,
+            9,
+            11
+          ]
+        }
+      ],
+      "mask_type": "conditional",
+      "setting_id": "C5",
+      "stage0_indices": [
+        0,
+        2,
+        4,
+        6,
+        9,
+        11
+      ],
+      "stage0_routes": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    }
+  ],
+  "source_json": "configs/cash5/cash_flow_env_config_seed42.json",
+  "source_json_sha256": "42390b3f62117f819ced12416cb08669e50a6eae2c11d321b396ed71ae55be94",
+  "status": "GENERATED_ONCE_TOPOLOGY_ONLY",
+  "true_routes": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      0
+    ]
+  ]
+}

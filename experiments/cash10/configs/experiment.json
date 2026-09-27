@@ -1,0 +1,103 @@
+{
+  "configuration": {
+    "batch_size": 128,
+    "clip_range": 0.2,
+    "clip_range_vf": null,
+    "ent_coef": 0.001,
+    "gae_lambda": 0.95,
+    "gamma": 0.99,
+    "learning_rate": 0.0003,
+    "max_grad_norm": 0.5,
+    "n_epochs": 10,
+    "n_steps": 512,
+    "normalize_advantage": true,
+    "policy_kwargs": {
+      "net_arch": {
+        "pi": [
+          256,
+          256
+        ],
+        "vf": [
+          256,
+          256
+        ]
+      }
+    },
+    "sde_sample_freq": -1,
+    "target_kl": null,
+    "use_sde": false,
+    "vf_coef": 0.5
+  },
+  "environment": {
+    "account_gap_penalty": [
+      4.0,
+      2.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0
+    ],
+    "account_yield_rate": [
+      0.003,
+      0.01,
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001,
+      0.001
+    ],
+    "gap_weight": 1.0,
+    "init_balance_high": [
+      180.0,
+      60.0,
+      35.0,
+      35.0,
+      35.0,
+      35.0,
+      35.0,
+      35.0,
+      35.0,
+      35.0
+    ],
+    "init_balance_low": [
+      140.0,
+      30.0,
+      18.0,
+      18.0,
+      18.0,
+      18.0,
+      18.0,
+      18.0,
+      18.0,
+      18.0
+    ],
+    "investment_idx": 1,
+    "investment_shaping_weight": 0.0,
+    "master_idx": 0,
+    "num_accounts": 10,
+    "operational_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": 42,
+    "stage1_max_steps": 16,
+    "stage2_max_steps": 16,
+    "step_penalty": 10.0,
+    "transfer_fee_rate": 0.001,
+    "yield_weight": 1.0,
+    "zero_transfer_penalty": 2.0
+  }
+}

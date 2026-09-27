@@ -1,0 +1,31 @@
+{
+  "ordering_weeks": 13,
+  "demand_weeks": 14,
+  "weekly_demand": [
+    42,
+    84,
+    126
+  ],
+  "weekly_prior": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "fine_correct": 0.8,
+  "coarse_keeps_fine": 0.6839285714285714,
+  "coarse_correct_preserved": 0.57875,
+  "regular_price": 1,
+  "flex_price": 1.5,
+  "sales_price": 6,
+  "daily_holding_cost": 0.5,
+  "shortage_penalty": 3,
+  "flex_capacity": 67.2,
+  "regular_max": 168,
+  "initial_inventory": 63,
+  "terminal_salvage": 0,
+  "rng_root": [
+    20260922,
+    4101
+  ],
+  "fine_resampling_stream": 5
+}
